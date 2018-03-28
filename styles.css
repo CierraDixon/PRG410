@@ -1,0 +1,114 @@
+@charset "utf-8";
+body{
+	text-align: center;
+	}
+header{
+	background-color: #B436FF;
+	padding: 5px 0 0 0;
+	text-align: center;
+	color: #2D0D40;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	display: grid;
+	grid-area: 1/span 3;
+	
+	
+}
+nav{
+	background-color: #A231E5;
+	border-top: #2D0D40 solid 4px;
+	color: #FFFFB7; 
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-weight: bold;
+}
+nav a{
+	color: #FFFFB7;
+	text-decoration: none;
+}
+nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+nav ul li{
+	display: inline-block;
+	width: 80px;
+	padding: 10px;
+	margin-right: 30px;
+	font-size: 85%;
+	
+}
+footer{
+	font-size: small;
+	border-top: #2D0D40 solid 4px;
+	text-align: left;
+	display: grid;
+	grid-area: 3/span 3;
+	margin-top: 20px;
+}
+footer p{
+	margin-left: 20px;
+}
+.wrapper{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: .25fr .5fr .25fr;
+}
+.regForm{
+	background-color: #B436FF;
+	border: solid #2D0D40 thin;
+	border-radius: 10px;
+	display: grid;
+	grid-area: 2/2;
+	font-weight: bold;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	
+}
+.signForm{
+	background-color: #B436FF;
+	border: solid #2D0D40 medium;
+	border-radius: 10px;
+	display: grid;
+	grid-area: 2/2;
+	font-weight: bold;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	
+}
+.signForm h1{
+	color: #2D0D40;
+	font-family:  Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.signForm a{
+	display: inline;
+	font-weight: bold;
+	padding-bottom: 25px;
+}
+.regForm h1{
+	color: #2D0D40;
+	font-family:  Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+label {
+	color: #2D0D40;
+}
+.form{
+	text-align: right;
+	margin-right: 26%;
+}
+.form2{
+	text-align: right;
+	margin-right: 26%;
+}
+.submit{
+	background-color: #2D0D40;
+	color: white;
+	font-weight: bold;
+	margin-top: 5px;
+	padding: 5px 10px 5px 10px;
+	border: solid white thin;
+}
+input{ 
+	border: solid #2D0D40 thin;
+	border-radius: 5px;
+	margin-bottom: 5px;
+
+}
+	
